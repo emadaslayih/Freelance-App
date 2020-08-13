@@ -1,0 +1,28 @@
+.category-wrapper {
+  display: flex;
+}
+
+.category-info {
+  text-align: center;
+  margin-bottom: 1.5em;
+}
+
+.cat-subcategoryList {
+  width: 23em;
+  padding-left: 3em;
+  margin-right: 0;
+}
+
+.cat-subcategoryList a {
+  color: #7a7d85;
+}
+
+.cat-subcategoryList li {
+  list-style: none;
+  padding-bottom: 0.8em;
+}
+
+.cat-subcategory-cards .container {
+  display: flex;
+  padding-left: 6em;
+}

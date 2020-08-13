@@ -1,0 +1,81 @@
+body,
+html {
+  margin: 0;
+  height: 100%;
+}
+
+#auth-nav-brand {
+  border-radius: 5px;
+  padding-right: 1%;
+  font-weight: bold;
+  font-size: 2em;
+  margin-left: 2.4em;
+  text-decoration: none;
+  color: #62646a !important;
+}
+
+#authNav-search-button {
+  background-color: #1dbf73;
+  color: white;
+}
+
+#authNav-search-button:hover {
+  border: 1px solid green;
+}
+
+.dropdown-toggle {
+  margin-right: 5em;
+}
+
+.auth-nav-left-links {
+  margin-left: 10px;
+}
+
+#auth-nav-right-links {
+  margin-right: 0;
+}
+
+.auth-nav-right-links a {
+  color: #62646a !important;
+}
+
+.auth-nav-right-links a:hover {
+  color: #1fd0b6 !important;
+}
+
+.dropdown-toggle {
+  cursor: pointer;
+}
+
+.auth_nav_side_menu {
+  display: none;
+  position: absolute;
+  right: 5em;
+  background-color: #fff;
+  width: 100px;
+  height: 120px;
+  z-index: 1;
+}
+
+.auth_nav_side_menu button {
+  width: 100px;
+  height: 40px;
+  background-color: #fff;
+  border: 1px solid transparent;
+  overflow: hidden;
+  color: gray;
+}
+
+.auth_nav_side_menu button:hover {
+  font-weight: bold;
+  color: #1fd0b6;
+}
+
+.auth_nav_side_menu a {
+  color: #fff;
+  font-size: 15px;
+}
+
+.dropdown-toggle:hover .auth_nav_side_menu {
+  display: block;
+}

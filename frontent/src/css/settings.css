@@ -1,0 +1,206 @@
+.settings-main-wrapper {
+  width: 100%;
+  height: 100%;
+  background: #f7f7f7;
+  position: relative;
+}
+.settings-first-div {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: 0 0;
+}
+
+.settings-aside {
+  font-size: 14px;
+  color: #777;
+}
+
+.settings-section {
+  background: #f7f7f7;
+  margin: 0 auto;
+  position: relative;
+}
+.first-div-inside-section {
+  width: 988px;
+  margin: 0 auto;
+  position: relative;
+  box-sizing: border-box;
+}
+.settings-aside {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 169px;
+  margin-top: 30px;
+}
+.settings-article {
+  padding: 1em;
+  background-color: #fff;
+  min-height: 800px;
+  margin-left: 189px;
+  font-size: 16px;
+  margin-top: 30px;
+  position: relative;
+  border: 1px #e5e5e5 solid;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.settings-go-to-profile {
+  text-align: right;
+  padding: 0;
+  border: 0;
+  font-size: 17px !important;
+  outline: 0;
+  font-size: 100%;
+  background: 0 0;
+  color: #62646a;
+}
+.settings-go-to-profile a {
+  color: #1dbf73;
+}
+
+.setings-article-div h5 {
+  margin-left: 40%;
+  margin-bottom: 5%;
+}
+
+.settings-update-form {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: 0 0;
+}
+
+.form-row {
+  padding: 0 0 20px;
+}
+
+.label-wrap {
+  width: 33%;
+  padding: 0 5% 10px 0;
+  display: block;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 700;
+  color: #777;
+  padding-top: 5px;
+}
+
+.settings-user-name input {
+  width: 50%;
+  background-color: #fff;
+  color: #7a7d85;
+  border: 1px #b5b6ba solid;
+  padding: 6px 7px 7px;
+  resize: none;
+  border-radius: 3px;
+  box-sizing: border-box;
+  margin-bottom: 1.5%;
+}
+
+.form-row input:focus {
+  outline: none;
+  border: 1px #b5b6ba solid;
+}
+
+.settings-user-email {
+  width: 50%;
+  display: inline-block;
+}
+
+.settings-user-email input {
+  width: 100%;
+  background-color: #fff;
+  color: #7a7d85;
+  border: 1px #b5b6ba solid;
+  padding: 6px 7px 7px;
+  margin: 0;
+  resize: none;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+.settings-user-address {
+  width: 50%;
+  display: inline-block;
+}
+
+.settings-user-address input {
+  background-color: #fff;
+  color: #7a7d85;
+  border: 1px #b5b6ba solid;
+  padding: 6px 7px 7px;
+  margin: 0;
+  width: 100%;
+  resize: none;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+.settings-user-password input {
+  background-color: #fff;
+  color: #7a7d85;
+  border: 1px #b5b6ba solid;
+  padding: 6px 7px 7px;
+  margin: 0;
+  width: 100%;
+  resize: none;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+.settings-status-dropdown {
+  position: relative;
+}
+
+.settings-status-dropdown select {
+  width: 100%;
+  background-color: #fff;
+  color: #7a7d85;
+  border: 1px #b5b6ba solid;
+  padding: 6px 7px 7px;
+  margin: 0;
+  resize: none;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+.settings-saveChanges-button {
+  text-align: right;
+  margin-bottom: 3%;
+}
+
+.settings-deactivation-account {
+  color: #7a7d85;
+  position: relative;
+}
+
+.settings-deactivation-account label {
+  font-weight: 700;
+}
+
+.secondform-select {
+  width: 100%;
+  color: #7a7d85;
+  padding: 6px 7px 7px;
+  margin: 0;
+  resize: none;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+.secondform-select {
+  border: 1px #b5b6ba solid;
+  outline: none;
+}

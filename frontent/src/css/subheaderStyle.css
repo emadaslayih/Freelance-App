@@ -1,0 +1,83 @@
+/*Title*/
+.sub_dropdown_title {
+  text-align: center;
+  background-color: transparent;
+  cursor: pointer;
+  margin: 0px;
+  border: 1px solid transparent;
+  text-overflow: visible;
+  border-bottom: 3px solid transparent;
+}
+
+/*The dropdown menu*/
+.sub_dropdown_menu {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  width: 300px;
+  height: 250px;
+  z-index: 1;
+  color: gray;
+  border-left: 0.5px solid #cccccc;
+  border-right: 0.5px solid #cccccc;
+  border-bottom: 0.5px solid #cccccc;
+  font-size: 16px;
+  margin-top: 2.6em;
+}
+
+.sub_dropdown_menu:active {
+  background-color: #fff;
+}
+/*The items in dropdown menu*/
+.sub_item a {
+  color: gray;
+  font-weight: 350;
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+  background-color: white;
+  color: gray;
+}
+
+/*When we hover the items in the dropdown menu*/
+.sub_dropdown_menu .sub_item:hover {
+  color: gray;
+}
+
+.sub_dropdown_menu .sub_item:active {
+  background-color: transparent;
+}
+
+/*The dropdown menu after hovering*/
+#sub_dropdown:hover .sub_dropdown_menu {
+  display: block;
+}
+
+#sub_dropdown .sub_dropdown_title a {
+  color: gray;
+  border: none;
+  text-decoration: none;
+}
+
+#sub_dropdown:hover .sub_dropdown_title {
+  text-decoration: none;
+  border-bottom: 3px solid #1dbf73;
+}
+/*The sub_navbar*/
+.sub_navbar {
+  border-top: 0.5px solid #cccccc;
+  border-bottom: 0.5px solid #cccccc;
+  margin-bottom: 1.5em;
+  padding: 0 4.5em;
+}
+
+#sub_dropdown:last-child .sub_dropdown_menu {
+  right: 0;
+}
+#sub_dropdown:nth-child(8) .sub_dropdown_menu {
+  right: 0;
+}
+#sub_dropdown {
+  margin-bottom: 0em;
+}

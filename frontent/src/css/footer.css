@@ -1,0 +1,24 @@
+.Footer-left {
+  display: inline-grid;
+}
+.footer-all-col {
+  white-space: nowrap;
+  width: 100%;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  padding-left: 3%;
+  display: inline-grid;
+}
+.footer-all-col h5 {
+  color: black;
+}
+.footer-all-col a {
+  margin: 3% 0;
+  color: #7a7d85;
+  display: inline-grid;
+}
+.suport-div {
+  display: flex;
+  flex-direction: column;
+}

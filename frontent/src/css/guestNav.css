@@ -1,0 +1,27 @@
+body,
+html {
+  margin: 0;
+  height: 100%;
+}
+
+#guest-nav-brand {
+  border-radius: 5px;
+  padding-right: 1%;
+  font-weight: bold;
+  font-size: 2em;
+  margin-left: 2em;
+  text-decoration: none;
+  color: #62646a !important;
+}
+
+.guest-nav-links {
+  margin-right: 1%;
+}
+
+.guest-nav-links a {
+  color: #62646a !important;
+}
+
+.guest-nav-links a:hover {
+  color: #1fd0b6 !important;
+}

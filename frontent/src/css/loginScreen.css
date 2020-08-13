@@ -1,0 +1,131 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.login-container {
+  text-align: -webkit-center;
+  overflow: hidden;
+}
+
+.login-wrapper {
+  color: white;
+  width: 100%;
+  top: 0;
+  display: flex;
+  height: 80%;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.login-content {
+  background: #7474bf;
+  background: -webkit-linear-gradient(to right, #348ac7, #5094ff);
+  background: linear-gradient(to right, #348ac7, #5094ff);
+  height: 100vh;
+  width: 50%;
+}
+
+#login-brand {
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+  border-radius: 5px;
+  padding-right: 1%;
+  color: white;
+  font-size: 2.3em;
+  margin-right: 75%;
+  text-decoration: none;
+}
+
+.headline-content {
+  margin: 29% 13%;
+  text-align: right;
+}
+
+#content-title {
+  font-size: 2.3em;
+  margin-bottom: 15%;
+}
+
+/*Login Window on the right , its css starts here*/
+
+.login-window {
+  width: 50%;
+}
+
+.create-profile-div {
+  margin-top: 5%;
+  width: 70%;
+  margin-left: 35%;
+}
+
+.create-profile-div a {
+  color: gray;
+  font-size: 13px;
+  font-weight: 600;
+  margin-right: 4%;
+  text-decoration: none;
+}
+
+#create-button {
+  color: rgb(80, 148, 255);
+  background-color: white;
+  width: 30%;
+  font-size: 1em;
+  font-weight: 800;
+  margin: 0;
+}
+
+.login-form {
+  margin-top: 12em;
+  font-size: 18px;
+}
+
+.login-form input {
+  padding-left: 1%;
+  background-color: rgba(0, 0, 0, 0);
+  color: rgb(148, 143, 143);
+  width: 60%;
+  border: none;
+  outline: none;
+  height: 40px;
+  border-bottom: 1px solid rgb(80, 148, 255);
+  padding-right: 0;
+  margin-right: 20%;
+  margin-left: 20%;
+  margin-bottom: 3%;
+  transition: height 1s;
+  -webkit-transition: height 1s;
+}
+
+.login-form input:focus {
+  height: 55px;
+  font-size: 18px;
+  border-bottom: 2px solid rgb(80, 148, 255);
+}
+
+#login-button {
+  background: #7474bf;
+  background: -webkit-linear-gradient(to right, #348ac7, #5094ff);
+  background: linear-gradient(to right, #348ac7, #5094ff);
+  width: 25%;
+  font-weight: 800;
+  margin: 5% 38%;
+  margin-bottom: 3%;
+}
+
+.login-form a {
+  color: gray;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.login-form a:hover {
+  color: gray;
+  text-decoration: none;
+}
+
+.login-form .err {
+  color: red;
+  font-size: 12px;
+}

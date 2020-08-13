@@ -1,0 +1,105 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.register-container {
+  text-align: -webkit-center;
+  overflow: hidden;
+}
+
+.register-wrapper {
+  color: white;
+  width: 100%;
+  top: 0;
+  display: flex;
+  height: 80%;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.register-content {
+  background: #7474bf;
+  background: -webkit-linear-gradient(to right, #348ac7, #5094ff);
+  background: linear-gradient(to right, #348ac7, #5094ff);
+  height: 100vh;
+  width: 50%;
+}
+
+.register-window {
+  width: 50%;
+}
+#register-brand {
+  border-bottom: 1px solid #348ac7;
+  border-right: 1px solid #348ac7;
+  border-radius: 5px;
+  color: #348ac7;
+  padding-right: 1%;
+  font-size: 2.3em;
+  margin-right: 75%;
+  text-decoration: none;
+}
+
+.register-form {
+  margin-top: 12%;
+  font-size: 20px;
+  width: 90%;
+}
+
+.register-form input {
+  padding-left: 1%;
+  background-color: rgba(0, 0, 0, 0);
+  color: rgb(148, 143, 143);
+  width: 60%;
+  border: none;
+  outline: none;
+  height: 40px;
+  border-bottom: 1px solid rgb(80, 148, 255);
+  padding-right: 0;
+  margin-right: 15%;
+  margin-left: 15%;
+  margin-bottom: 3%;
+  transition: height 1s;
+  -webkit-transition: height 1s;
+}
+
+.register-form input:focus {
+  height: 50px;
+  font-size: 18px;
+  border-bottom: 2px solid rgb(80, 148, 255);
+  font-size: 20px;
+}
+
+#register-button {
+  background: #7474bf;
+  background: -webkit-linear-gradient(to right, #348ac7, #5094ff);
+  background: linear-gradient(to right, #348ac7, #5094ff);
+  width: 25%;
+  font-weight: 800;
+  margin: 2.5% 38%;
+}
+
+.register-headline-content {
+  margin: 26.5% 13%;
+  margin-bottom: 17%;
+  text-align: center;
+}
+
+#register-content-title {
+  font-size: 2.3em;
+  margin-bottom: 12.5%;
+}
+
+.register-content a {
+  color: white;
+  text-decoration: none;
+}
+
+#content-login-button {
+  background: white;
+  color: #5094ff;
+  width: 25%;
+  font-weight: 800;
+  margin: 1% 38%;
+  margin-bottom: 3%;
+}
